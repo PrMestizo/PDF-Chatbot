@@ -37,7 +37,7 @@ if __name__ == "__main__":
         retriever=vectorstore.as_retriever(), combine_docs_chain=combine_docs_chain
     )
 
-    res = retrieval_chain.invoke({"input": "Que ocurrio el 6 de diciembre de 2020? "})
+    res = retrieval_chain.invoke({"input": "Write here your query"})
     print(res["answer"])
 
 
