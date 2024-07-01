@@ -23,8 +23,5 @@ How to get you OpenAI API Key https://platform.openai.com/account/api-keys
 PINECONE_API_KEY=<your-pinecone-api-key>
 ```
 ```
-PINECONE_ENVIRONMENT=<your-pinecone-environment>
-```
-```
 PINECONE_INDEX=<your-pineconde-index>
 ```
