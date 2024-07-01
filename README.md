@@ -9,7 +9,7 @@ Key Features:
 * **OpenAI-Powered:** Utilizes OpenAI's advanced language models for understanding questions and generating accurate, informative responses.
 * **Pinecone Vectorstore:** Enables fast and relevant retrieval of information from the PDF documents based on semantic similarity.
 
-## Setup
+## Setup 💻
 Before running Personal AI, you need to set a few environment variables:
 
 ### OpenAI API Access
@@ -25,3 +25,18 @@ PINECONE_API_KEY=<your-pinecone-api-key>
 ```
 PINECONE_INDEX=<your-pineconde-index>
 ```
+
+## Instructions 📃
+
+### Script 1: ingestion.py
+This script processes PDF documents, splits them into chunks, generates embeddings, and stores these embeddings in a Pinecone vector store.
+ 
+1. Place your PDF files in a directory named Data.
+2. Ensure you have a .env file with your Pinecone API key and index name.
+3. Run the script to store embeddings.
+
+### Script 2: main.py
+This script loads stored embeddings from Pinecone and uses them to answer questions.
+
+1. Ensure the .env file contains your Pinecone API key and index name.
+2. Run the script and pass your question to get an answer. 
