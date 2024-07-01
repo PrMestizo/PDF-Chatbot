@@ -11,7 +11,7 @@ from langchain_pinecone import PineconeVectorStore
 
 if __name__ == "__main__":
 
-    pdf_directory = "Data"
+    pdf_directory = "your/data/route"
     documents = []
 
     for filename in os.listdir(pdf_directory):
