@@ -1,4 +1,4 @@
-# PDF-Chatbot
+# Openai & LangChain - Create a ChatGPT with your PDF Files
 
 This repository contains a chatbot designed to answer questions about the content of PDF documents. It leverages the power of LangChain to extract information from PDFs, OpenAI's API for natural language processing and generation, and Pinecone as a vectorstore for efficient semantic search and retrieval of relevant information.
 
@@ -10,21 +10,33 @@ Key Features:
 * **Pinecone Vectorstore:** Enables fast and relevant retrieval of information from the PDF documents based on semantic similarity.
 
 ## Setup 💻
-Before running Personal AI, you need to set a few environment variables:
+Before running, you need to set a few environment variables and commands:
 
-### OpenAI API Access
+1. Clone the repo or download the ZIP
+```
+https://github.com/PrMestizo/PDF-Chatbot.git
+```
+2. Install pipenv if it's not already installed
+```
+pip install pipenv
+```
+3. Install the project's dependencies
+```
+pipenv install
+```
+4. Activate the virtual environment:
+```
+pipenv shell
+```
+5. Set up your .env file
 ```
 OPENAI_API_KEY=<your-openai-api-key>
-```
-How to get you OpenAI API Key https://platform.openai.com/account/api-keys
-
-### Pinecone API Access
-```
 PINECONE_API_KEY=<your-pinecone-api-key>
-```
-```
 PINECONE_INDEX=<your-pineconde-index>
 ```
+How to get your OpenAI API Key https://platform.openai.com/account/api-keys
+
+How to get your Pinecone API Key https://docs.pinecone.io/guides/get-started/quickstart
 
 ## Instructions 📃
 
