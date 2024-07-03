@@ -1,13 +1,14 @@
 # Openai & LangChain - Create a ChatGPT with your PDF Files
 
-This repository contains a chatbot designed to answer questions about the content of PDF documents. It leverages the power of LangChain to extract information from PDFs, OpenAI's API for natural language processing and generation, and Pinecone as a vectorstore for efficient semantic search and retrieval of relevant information.
+This repository contains a chatbot designed to answer questions about the content of PDF documents. It leverages the power of LangChain to extract information from PDFs, OpenAI's API for natural language processing and generation, and Pinecone as a vector store for efficient semantic search and retrieval of relevant information. A user-friendly frontend has been added using Streamlit for easy interaction with the chatbot.
 
 Key Features:
 
-* **PDF Ingestion:** Easily upload and process PDF documents.
-* **LangChain Integration:** Streamlines the extraction and manipulation of text from PDFs.
-* **OpenAI-Powered:** Utilizes OpenAI's advanced language models for understanding questions and generating accurate, informative responses.
-* **Pinecone Vectorstore:** Enables fast and relevant retrieval of information from the PDF documents based on semantic similarity.
+* 📄 **PDF Ingestion:** Easily upload and process PDF documents.
+* 🔗 **LangChain Integration:** Streamlines the extraction and manipulation of text from PDFs.
+* 🤖 **OpenAI-Powered:** Utilizes OpenAI's advanced language models for understanding questions and generating accurate, informative responses.
+* 🗂️ **Pinecone Vectorstore:** Enables fast and relevant retrieval of information from the PDF documents based on semantic similarity.
+* 🌐 **Streamlit Frontend:** Provides an intuitive web interface for users to interact with the chatbot
 
 ## Setup 💻
 Before running, you need to set a few environment variables and commands:
