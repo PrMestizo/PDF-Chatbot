@@ -10,6 +10,12 @@ langchainhub = "*"
 langchain-community = "*"
 langchain-openai = "*"
 pypdf = "*"
+flask = "*"
+streamlit = "*"
+streamlit-chat = "*"
+fastapi = "*"
+jinja2 = "*"
+uvicorn = "*"
 
 [dev-packages]
 
