@@ -51,4 +51,14 @@ This script processes PDF documents, splits them into chunks, generates embeddin
 This script loads stored embeddings from Pinecone and uses them to answer questions.
 
 1. Ensure the .env file contains your Pinecone API key and index name.
-2. Run the script and pass your question to get an answer. 
+2. Run the script and pass your question to get an answer.
+
+### Script 3: app.py
+This script creates a web interface using Streamlit to interact with the chatbot, which answers questions based on the stored embeddings.
+
+1. Ensure the .env file contains your Pinecone API key and index name.
+2. Run the script to start a web interface with the next command:
+```
+streamlit run <your-route/app.py>
+```
+3. Enter your questions in the text field to receive responses from the chatbot.
