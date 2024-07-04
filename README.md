@@ -2,6 +2,8 @@
 
 This repository contains a chatbot designed to answer questions about the content of PDF documents. It leverages the power of LangChain to extract information from PDFs, OpenAI's API for natural language processing and generation, and Pinecone as a vector store for efficient semantic search and retrieval of relevant information. A user-friendly frontend has been added using Streamlit for easy interaction with the chatbot.
 
+![Demo](https://youtu.be/NZay3FeETkg)
+
 Key Features:
 
 * 📄 **PDF Ingestion:** Easily upload and process PDF documents.
